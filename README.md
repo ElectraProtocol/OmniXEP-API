@@ -1,4 +1,4 @@
-# omniapi
+# OmniXEP-API
 API Services for Omni 
 
 <b>NOTE: The following is a work in progress and should not be considered production ready/usable</b>
