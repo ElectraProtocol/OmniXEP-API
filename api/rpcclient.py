@@ -5,10 +5,10 @@ class RPCHost():
     def __init__(self):
         self._session = requests.Session()
         RPCSSL=False
-        RPCPORT="8332"
+        RPCPORT="16818"
         RPCHOST="localhost"
         try:
-            with open('/root/.omnixep/bitcoin.conf') as fp:
+            with open('/root/.omnixep/omnixep.conf') as fp:
                 for line in fp:
                     #print line
                     if line.split('=')[0] == "testnet" and line.split('=')[1] == "1":
