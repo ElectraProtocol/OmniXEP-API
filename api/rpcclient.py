@@ -5,8 +5,8 @@ class RPCHost():
     def __init__(self):
         self._session = requests.Session()
         RPCSSL=False
-        RPCPORT="16818"
-        RPCHOST="localhost"
+        RPCPORT="8332"
+        RPCHOST="51.75.65.251"
         try:
             with open('/root/.omnixep/omnixep.conf') as fp:
                 for line in fp:
